@@ -30,7 +30,7 @@ Developer @GA in NYC
 	clear: both;
 }
 
-.alignright {
+.alignright 
 	float: right; 
 	padding: 0 0 10px 10px; /* note the padding around a right floated image */
 }
@@ -49,30 +49,68 @@ body {
      font-size: 18px;
      line-height: 1.4;
      font-family: Lato, Arial, sans-serif;
+     width: 100%;
      margin:0px;
+     padding: 0 5%;
 }
 
 /******************************************
 /* LAYOUT                   
 /*******************************************/
 
-body {
-	margin-left: auto;
-	margin-right: auto;
-	width: 900px;
+header {
+	width: 100%;
+}
+
+nav {
+	clear: both;
+}
+
+header h1 {
+	float: left;
+	margin-right: 30px;
+}
+
+header h2 {
+	margin-bottom: 5px;
+	padding-top: 55px;
+	color: #BBB;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	float: left;
+	width: 16.666%;
+	background-color: black;
+	padding: 20px 25px;
+	text-align: center;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
 }
 
 a:hover {
 	color: #A00;
 }
 
-nav a {
-	color: gray;
-	text-decoration: none;
-	border-bottom: 1px solid #EEE;
-	padding-bottom: 5px;
-	margin-right: 20px;
-	font-size: 22px;
+main {
+	width: 70%;
+	float: left;
+	margin-right: 5%;
+}
+
+aside {
+	width: 25%;
+	float: left;
+	padding-top: 100px;
+	color: #444;
 }
 
 h1 {
@@ -133,6 +171,7 @@ span {
 footer {
 	padding-top: 40px;
 	padding-bottom: 30px;
+	clear: both;
 }
 
 footer a {
