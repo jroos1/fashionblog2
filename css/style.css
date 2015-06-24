@@ -62,10 +62,6 @@ header {
 	width: 100%;
 }
 
-nav {
-	clear: both;
-}
-
 header h1 {
 	float: left;
 	margin-right: 30px;
@@ -168,10 +164,17 @@ span {
 	padding-bottom: 5px;
 }
 
+section {
+	border-bottom: 1px solid gray;
+}
+
+aside img {
+	margin: 20px auto;
+}
+
 footer {
 	padding-top: 40px;
 	padding-bottom: 30px;
-	clear: both;
 }
 
 footer a {
