@@ -71,6 +71,7 @@ header h2 {
 	margin-bottom: 5px;
 	padding-top: 55px;
 	color: #BBB;
+	font-size: 30px;
 }
 
 ul {
@@ -80,16 +81,22 @@ ul {
 
 nav li {
 	float: left;
-	width: 16.666%;
 	background-color: black;
-	padding: 20px 25px;
 	text-align: center;
+	border-right: 1px solid white;
+	width: 16.666%;
+}
+
+nav li:last-of-type {
+	border-right: none;
 }
 
 nav a {
 	color: white;
 	text-decoration: none;
 	font-size: 22px;
+	display: block;
+	padding: 15px 0;
 }
 
 a:hover {
@@ -105,7 +112,7 @@ main {
 aside {
 	width: 25%;
 	float: left;
-	padding-top: 100px;
+	padding-top: 135px;
 	color: #444;
 }
 
@@ -122,7 +129,7 @@ h1 a {
 
 h2 {
 	font-weight: normal;
-	font-size: 30px;
+	font-size: 45px;
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
@@ -134,7 +141,7 @@ h2 a {
 
 h3 {
 	color: #CCC;
-	font-size: 30px;
+	font-size: 40px;
 	font-weight: normal;
 	margin-bottom: 0px;
 }
@@ -150,9 +157,13 @@ h4 a {
 }
 
 article {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #DDD;
 	padding-top: 30px;
 	padding-bottom: 10px;
+}
+
+article img {
+	width: 100%;
 }
 
 span {
@@ -165,11 +176,34 @@ span {
 }
 
 section {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #DDD;
 }
 
-aside img {
-	margin: 20px auto;
+section a {
+	color: #D00;
+	text-decoration: none;
+}
+
+section ul {
+	color: gray;
+}
+
+section:last-of-type {
+	border-bottom: none;
+}
+
+section h5 {
+	color: #CCC;
+	font-size: 18px;
+}
+
+section img {
+	margin: 30px 2.5%;
+	width: 95%;
+}
+
+section ul {
+	margin-left: 45px;
 }
 
 footer {
